@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8DBD65B2-D1AF-3F39-A905-DC006B2AFE80}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>cli</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cli.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cli</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cli.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cli</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cli.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cli</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cli.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cli</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\include;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;USE_STATIC_LIB;THREADED;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;USE_STATIC_LIB;THREADED;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\include;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\include;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\zookeeper.lib;Debug\hashtable.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/Debug/cli.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/Debug/cli.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\include;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_STATIC_LIB;THREADED;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_STATIC_LIB;THREADED;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\include;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\include;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\zookeeper.lib;Release\hashtable.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/Release/cli.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/Release/cli.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\include;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_STATIC_LIB;THREADED;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_STATIC_LIB;THREADED;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\include;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\include;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\zookeeper.lib;MinSizeRel\hashtable.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/MinSizeRel/cli.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/MinSizeRel/cli.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\include;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_STATIC_LIB;THREADED;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_STATIC_LIB;THREADED;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\include;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\include;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\zookeeper.lib;RelWithDebInfo\hashtable.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/RelWithDebInfo/cli.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/RelWithDebInfo/cli.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\cmake_\bin\cmake.exe -SD:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c -BD:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c --check-stamp-file D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\cmake_\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckFunctionExists.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckStructHasMember.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckSymbolExists.cmake;D:\cmake_\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake_\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\cmake_\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\cmake_\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeCCompiler.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeSystem.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\cmake_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\cmake_\bin\cmake.exe -SD:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c -BD:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c --check-stamp-file D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\cmake_\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckFunctionExists.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckStructHasMember.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckSymbolExists.cmake;D:\cmake_\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake_\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\cmake_\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\cmake_\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeCCompiler.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeSystem.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\cmake_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\cmake_\bin\cmake.exe -SD:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c -BD:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c --check-stamp-file D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\cmake_\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckFunctionExists.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckStructHasMember.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckSymbolExists.cmake;D:\cmake_\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake_\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\cmake_\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\cmake_\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeCCompiler.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeSystem.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\cmake_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\cmake_\bin\cmake.exe -SD:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c -BD:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c --check-stamp-file D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\cmake_\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake_\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckCXXSourceCompiles.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckFunctionExists.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckStructHasMember.cmake;D:\cmake_\share\cmake-3.19\Modules\CheckSymbolExists.cmake;D:\cmake_\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake_\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\cmake_\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\cmake_\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\cmake_\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeCCompiler.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\3.19.2\CMakeSystem.cmake;D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\cmake_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\cli.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\ZERO_CHECK.vcxproj">
+      <Project>{5C115F56-D897-36C5-9475-EC9C9DEF715E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\hashtable.vcxproj">
+      <Project>{CD9C570D-0FA7-3808-8EA0-2FDDEA6D5B02}</Project>
+      <Name>hashtable</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\zookeeper.vcxproj">
+      <Project>{E693E57F-6A3F-3EAA-B997-59D8CDEDBC3F}</Project>
+      <Name>zookeeper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

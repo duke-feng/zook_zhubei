@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\e4626b9be74531291c3950683ab87823\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{37C81E8E-84A5-3EE2-BAAA-A9FB2633814D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

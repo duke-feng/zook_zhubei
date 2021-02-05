@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeLists.txt
+  hashtable_itr.c
+  hashtable.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\hashtable\hashtable.c(25): warning C4305: “初始化”: 从“double”到“const float”截断
+  正在生成代码...
+  hashtable.vcxproj -> D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\Debug\hashtable.lib

@@ -1,0 +1,5 @@
+D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/hashtable.dir
+D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/zookeeper.dir
+D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/cli.dir
+D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/ALL_BUILD.dir
+D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/ZERO_CHECK.dir

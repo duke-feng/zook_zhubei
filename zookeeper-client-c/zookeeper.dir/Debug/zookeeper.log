@@ -1,0 +1,36 @@
+﻿  Building Custom Rule D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeLists.txt
+  zookeeper.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\zookeeper.c(1220): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(335): note: 参见“strncpy”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\zookeeper.c(1435): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(129): note: 参见“strcpy”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\zookeeper.c(1436): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(90): note: 参见“strcat”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\zookeeper.c(1815): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(173): note: 参见“strerror”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\zookeeper.c(2053): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(173): note: 参见“strerror”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\zookeeper.c(2190): warning C4133: “函数”: 从“timeval *”到“const char *”的类型不兼容
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\zookeeper.c(2191): warning C4133: “函数”: 从“timeval *”到“const char *”的类型不兼容
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\zookeeper.c(2459): warning C4133: “函数”: 从“int *”到“char *”的类型不兼容
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\zookeeper.c(4512): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(173): note: 参见“strerror”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\zookeeper.c(4586): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\winsock2.h(1846): note: 参见“inet_ntoa”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\zookeeper.c(4587): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+  recordio.c
+  zookeeper.jute.c
+  zk_log.c
+  zk_hashtable.c
+  addrvec.c
+  mt_adaptor.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\mt_adaptor.c(443): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\mt_adaptor.c(443): warning C4024: “log_message”: 形参和实参 5 的类型不同
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\mt_adaptor.c(509): warning C4244: “=”: 从“time_t”转换到“int32_t”，可能丢失数据
+  winport.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\winport.c(256): warning C4090: “函数”: 不同的“const”限定符
+  正在生成代码...
+d:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\winport.c(166): warning C4716: “pthread_cond_broadcast”: 必须返回一个值
+d:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\winport.c(205): warning C4716: “pthread_cond_wait”: 必须返回一个值
+  zookeeper.vcxproj -> D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\Debug\zookeeper.lib

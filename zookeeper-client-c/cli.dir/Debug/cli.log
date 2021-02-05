@@ -1,0 +1,28 @@
+﻿  Building Custom Rule D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeLists.txt
+  cli.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\cli.c(134): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\cli.c(397): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(431): note: 参见“strtok”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\cli.c(400): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(431): note: 参见“strtok”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\cli.c(408): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(431): note: 参见“strtok”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\cli.c(416): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(431): note: 参见“strtok”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\cli.c(425): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(431): note: 参见“strtok”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\cli.c(431): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\cli.c(463): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(431): note: 参见“strtok”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\cli.c(481): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(431): note: 参见“strtok”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\cli.c(750): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(335): note: 参见“strncpy”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\cli.c(756): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\src\cli.c(786): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(129): note: 参见“strcpy”的声明
+  cli.vcxproj -> D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\Debug\cli.exe
+  cli.vcxproj -> D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/Debug/cli.pdb (Full PDB)

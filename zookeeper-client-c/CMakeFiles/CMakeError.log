@@ -1,0 +1,334 @@
+Determining if the SOCK_CLOEXEC exist failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_e566c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e566c.dir\Debug\\" /Fd"cmTC_e566c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2): fatal error C1083: 无法打开包括文件: “sys/socket.h”: No such file or directory [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_e566c.vcxproj]
+
+
+File D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SOCK_CLOEXEC
+  return ((int*)(&SOCK_CLOEXEC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file arpa/inet.h exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_df3b2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df3b2.dir\Debug\\" /Fd"cmTC_df3b2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “arpa/inet.h”: No such file or directory [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_df3b2.vcxproj]
+
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_6ea99.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ea99.dir\Debug\\" /Fd"cmTC_6ea99.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “dlfcn.h”: No such file or directory [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_6ea99.vcxproj]
+
+
+
+Determining if the include file netdb.h exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_5722f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5722f.dir\Debug\\" /Fd"cmTC_5722f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “netdb.h”: No such file or directory [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_5722f.vcxproj]
+
+
+
+Determining if the include file netinet/in.h exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_88841.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88841.dir\Debug\\" /Fd"cmTC_88841.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “netinet/in.h”: No such file or directory [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_88841.vcxproj]
+
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_9203b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9203b.dir\Debug\\" /Fd"cmTC_9203b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_9203b.vcxproj]
+
+
+
+Determining if the include file sys/socket.h exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_7bb5d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7bb5d.dir\Debug\\" /Fd"cmTC_7bb5d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “sys/socket.h”: No such file or directory [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_7bb5d.vcxproj]
+
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_31084.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31084.dir\Debug\\" /Fd"cmTC_31084.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_31084.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_8d6c4.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d6c4.dir\Debug\\" /Fd"cmTC_8d6c4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_8d6c4.vcxproj]
+
+
+
+Determining if the include file sys/utsname.h exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_df225.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df225.dir\Debug\\" /Fd"cmTC_df225.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “sys/utsname.h”: No such file or directory [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_df225.vcxproj]
+
+
+
+Determining if the function gethostbyname exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_037e6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_037e6.dir\Debug\\" /Fd"cmTC_037e6.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\cmake_\share\cmake-3.19\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _gethostbyname，该符号在函数 _main 中被引用 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_037e6.vcxproj]
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\Debug\cmTC_037e6.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_037e6.vcxproj]
+
+
+
+Determining if the function gethostname exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_b9d91.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9d91.dir\Debug\\" /Fd"cmTC_b9d91.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\cmake_\share\cmake-3.19\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _gethostname，该符号在函数 _main 中被引用 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_b9d91.vcxproj]
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\Debug\cmTC_b9d91.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_b9d91.vcxproj]
+
+
+
+Determining if the function getlogin exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_7122a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getlogin /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7122a.dir\Debug\\" /Fd"cmTC_7122a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\cmake_\share\cmake-3.19\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _getlogin，该符号在函数 _main 中被引用 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_7122a.vcxproj]
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\Debug\cmTC_7122a.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_7122a.vcxproj]
+
+
+
+Determining if the function getpwuid_r exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_a6046.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpwuid_r /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a6046.dir\Debug\\" /Fd"cmTC_a6046.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\cmake_\share\cmake-3.19\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _getpwuid_r，该符号在函数 _main 中被引用 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_a6046.vcxproj]
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\Debug\cmTC_a6046.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_a6046.vcxproj]
+
+
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_763d0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_763d0.dir\Debug\\" /Fd"cmTC_763d0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\cmake_\share\cmake-3.19\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _gettimeofday，该符号在函数 _main 中被引用 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_763d0.vcxproj]
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\Debug\cmTC_763d0.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_763d0.vcxproj]
+
+
+
+Determining if the function getuid exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_94804.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getuid /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94804.dir\Debug\\" /Fd"cmTC_94804.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\cmake_\share\cmake-3.19\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _getuid，该符号在函数 _main 中被引用 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_94804.vcxproj]
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\Debug\cmTC_94804.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_94804.vcxproj]
+
+
+
+Determining if the function poll exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_b3880.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3880.dir\Debug\\" /Fd"cmTC_b3880.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\cmake_\share\cmake-3.19\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _poll，该符号在函数 _main 中被引用 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_b3880.vcxproj]
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\Debug\cmTC_b3880.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_b3880.vcxproj]
+
+
+
+Determining if the function socket exists failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_26ac6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=socket /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_26ac6.dir\Debug\\" /Fd"cmTC_26ac6.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\cmake_\share\cmake-3.19\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _socket，该符号在函数 _main 中被引用 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_26ac6.vcxproj]
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\Debug\cmTC_26ac6.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_26ac6.vcxproj]
+
+
+
+Performing C SOURCE FILE Test ZOO_IPV6_ENABLED failed with the following output:
+Change Dir: D:/zookeeper/apache-zookeeper-3.5.8/zookeeper-client/zookeeper-client-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_d8989.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D ZOO_IPV6_ENABLED /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d8989.dir\Debug\\" /Fd"cmTC_d8989.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: 无法打开包括文件: “netinet/in.h”: No such file or directory [D:\zookeeper\apache-zookeeper-3.5.8\zookeeper-client\zookeeper-client-c\CMakeFiles\CMakeTmp\cmTC_d8989.vcxproj]
+
+
+Source file was:
+
+#include <netinet/in.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in6 *)0)->sin6_addr);
+  return 0;
+}
+
